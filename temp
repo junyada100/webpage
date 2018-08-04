@@ -1,0 +1,201 @@
+
+> webpage@1.0.0 build /home/junyada100/webpage
+> webpack ./webpack.config.js
+
+Hash: 48ae7e2316ad3d66106f
+Version: webpack 4.16.4
+Time: 1692ms
+Built at: 2018-08-03 09:37:01
+ 1 asset
+Entrypoint main = bundle.js
+  [6] (webpack)/buildin/global.js 509 bytes {0} [built]
+[115] ./webpack.config.js 368 bytes {0} [built]
+[152] util (ignored) 15 bytes {0} [built]
+[154] util (ignored) 15 bytes {0} [built]
+[186] (webpack)/buildin/module.js 519 bytes {0} [built]
+[187] buffer (ignored) 15 bytes {0} [optional] [built]
+[188] crypto (ignored) 15 bytes {0} [optional] [built]
+[243] fs (ignored) 15 bytes {0} [built]
+    + 277 hidden modules
+
+ERROR in ./node_modules/cacache/get.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/cacache'
+ @ ./node_modules/cacache/get.js 5:11-24
+ @ ./node_modules/cacache/locales/en.js
+ @ ./node_modules/cacache/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/writeFile.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/chownr/chownr.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/chownr'
+ @ ./node_modules/chownr/chownr.js 4:9-22
+ @ ./node_modules/cacache/lib/util/fix-owner.js
+ @ ./node_modules/cacache/lib/util/tmp.js
+ @ ./node_modules/cacache/locales/en.js
+ @ ./node_modules/cacache/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/writeFile.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/copy-concurrently/copy.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/copy-concurrently'
+ @ ./node_modules/copy-concurrently/copy.js 8:13-26
+ @ ./node_modules/move-concurrently/move.js
+ @ ./node_modules/cacache/lib/util/move-file.js
+ @ ./node_modules/cacache/lib/content/write.js
+ @ ./node_modules/cacache/put.js
+ @ ./node_modules/cacache/locales/en.js
+ @ ./node_modules/cacache/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/writeFile.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/fs.realpath/old.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/fs.realpath'
+ @ ./node_modules/fs.realpath/old.js 24:9-22
+ @ ./node_modules/fs.realpath/index.js
+ @ ./node_modules/glob/glob.js
+ @ ./node_modules/globby/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/fs.realpath/index.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/fs.realpath'
+ @ ./node_modules/fs.realpath/index.js 8:9-22
+ @ ./node_modules/glob/glob.js
+ @ ./node_modules/globby/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/glob/sync.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/glob'
+ @ ./node_modules/glob/sync.js 4:9-22
+ @ ./node_modules/glob/glob.js
+ @ ./node_modules/globby/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/glob/glob.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/glob'
+ @ ./node_modules/glob/glob.js 43:9-22
+ @ ./node_modules/globby/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/globby/gitignore.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/globby'
+ @ ./node_modules/globby/gitignore.js 2:11-24
+ @ ./node_modules/globby/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/graceful-fs/graceful-fs.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/graceful-fs'
+ @ ./node_modules/graceful-fs/graceful-fs.js 1:9-22
+ @ ./node_modules/cacache/lib/entry-index.js
+ @ ./node_modules/cacache/ls.js
+ @ ./node_modules/cacache/locales/en.js
+ @ ./node_modules/cacache/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/writeFile.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/graceful-fs/fs.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/graceful-fs'
+ @ ./node_modules/graceful-fs/fs.js 3:9-22
+ @ ./node_modules/graceful-fs/graceful-fs.js
+ @ ./node_modules/cacache/lib/entry-index.js
+ @ ./node_modules/cacache/ls.js
+ @ ./node_modules/cacache/locales/en.js
+ @ ./node_modules/cacache/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/writeFile.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/make-dir/index.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/make-dir'
+ @ ./node_modules/make-dir/index.js 2:11-24
+ @ ./node_modules/find-cache-dir/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/writeFile.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/mkdirp/index.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/mkdirp'
+ @ ./node_modules/mkdirp/index.js 2:9-22
+ @ ./node_modules/cacache/lib/util/fix-owner.js
+ @ ./node_modules/cacache/lib/util/tmp.js
+ @ ./node_modules/cacache/locales/en.js
+ @ ./node_modules/cacache/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/writeFile.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/move-concurrently/move.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/move-concurrently'
+ @ ./node_modules/move-concurrently/move.js 4:13-26
+ @ ./node_modules/cacache/lib/util/move-file.js
+ @ ./node_modules/cacache/lib/content/write.js
+ @ ./node_modules/cacache/put.js
+ @ ./node_modules/cacache/locales/en.js
+ @ ./node_modules/cacache/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/writeFile.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/path-exists/index.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/path-exists'
+ @ ./node_modules/path-exists/index.js 2:11-24
+ @ ./node_modules/locate-path/index.js
+ @ ./node_modules/find-up/index.js
+ @ ./node_modules/pkg-dir/index.js
+ @ ./node_modules/find-cache-dir/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/writeFile.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/path-type/index.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/path-type'
+ @ ./node_modules/path-type/index.js 2:11-24
+ @ ./node_modules/dir-glob/index.js
+ @ ./node_modules/globby/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/rimraf/rimraf.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/rimraf'
+ @ ./node_modules/rimraf/rimraf.js 6:9-22
+ @ ./node_modules/cacache/rm.js
+ @ ./node_modules/cacache/locales/en.js
+ @ ./node_modules/cacache/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/writeFile.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
+
+ERROR in ./node_modules/y18n/index.js
+Module not found: Error: Can't resolve 'fs' in '/home/junyada100/webpage/node_modules/y18n'
+ @ ./node_modules/y18n/index.js 1:9-22
+ @ ./node_modules/cacache/lib/util/y.js
+ @ ./node_modules/cacache/locales/en.js
+ @ ./node_modules/cacache/index.js
+ @ ./node_modules/copy-webpack-plugin/dist/writeFile.js
+ @ ./node_modules/copy-webpack-plugin/dist/processPattern.js
+ @ ./node_modules/copy-webpack-plugin/dist/index.js
+ @ ./webpack.config.js
